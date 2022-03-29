@@ -1,6 +1,6 @@
 // prisma/seed.ts
 import { PrismaClient } from '@prisma/client';
-import { products } from 'products';
+import { products } from '../products';
 
 const prisma = new PrismaClient();
 
